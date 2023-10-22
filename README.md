@@ -74,15 +74,15 @@ RESULTS AND DISCUSSIONS
 If the alcoholic person tries to drive the vehicles, the sensor present at the driver seat will detect 
 the presence of alcohol and the circuit will get activated. Hence the buzzer will start to buzz,
 and the vehicle engine will be turned off.
-LIMITATIONS 
+LIMITATIONS :
 1) The driver can hide their alcohol breath will any product.
 2) Alcohol sensor can be faked using different perfume which are alcohol free.
-FUTURE SCOPE 
+FUTURE SCOPE :
 Currently, the developed system is in the initial stage. In future, we can use the touch sensor in 
 the system so that when the driver will touch the steering automatically the engine will block. 
 We can also add the GPS technology to fetch the location of the vehicle as well as we can 
 involve IoT technology for more improvement. 
-CONCLUSION 
+CONCLUSION :
 The system “Alcohol Detection and Engine Locking” system is beneficial for the society. It 
 will help to reduce the road accidents as well as the drunk and drive cases. So that the road 
 safety will increase automatically. The number of deaths will decrease automatically. It’s not 
