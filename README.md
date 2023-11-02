@@ -23,6 +23,7 @@ Team Members:
 
 
 
+
 This project is one of the important Sensor based project ideas. The main unit of this project is an “Alcohol sensor”. If the person inside the car has consumed alcohol then it is alcohol detection is done by the sensor. The sensor gives this signal to a comparator IC. The output of the comparator is connected to the microcontroller.
 
 The microcontroller is the heart of this project. It is the CPU of the complete circuit. The microcontroller gives a high pulse to the buzzer circuit and the buzzer is turned on. At the same time, a relay is turned off. Due to this, the ignition of the car is deactivated. Alcohol Detection System with Buzzer Indication project is extended by adding an ignition key at the input and a DC motor at the output. The input Ignition key is given to the microcontroller. It is used to find out that the car is started. Whenever a key is inserted into the ignition lock at that time the alcohol detection process is started.
@@ -50,6 +51,7 @@ We can implement GPS technology so that once alcohol detection is done, the syst
 <summary> Working </summary> 
 
 
+
 Alcohol detection and vehicle control systems are designed to enhance road safety by preventing individuals under the influence of alcohol from operating vehicles. These systems typically incorporate
 breathalyzer technology to measure the driver's blood alcohol concentration (BAC). If a driver's BAC exceeds acertain threshold, the system may immobilize the vehicle or prevent it from starting, ensuring a safer driving environment. MQ-3 Alcohol Sensor: The MQ-3 sensor detects alcohol vapor concentration in the air and provides an analog output proportional to the alcohol level.Microcontroller (e.g., Arduino): This will interface with the MQ-3 sensor and process the analog output.LED or Buzzer (Optional): To indicate the status of the alcohol level (e.g., above the threshold). Here we have should use sequential logical gates (flip flops).there
 a) Input –clock , alcohol level, rest. 
@@ -66,6 +68,7 @@ d) Alcohol level is 1 if alcohol is greater than 127.
 <details> 
 <summary> Logism </summary> 
 
+
 ![final logisim](https://github.com/Bhaktirk269/DDS-MINI-PROJECT/assets/129278697/3b65f589-8f1a-462c-8ce7-5da056f97ef3)
 
 
@@ -74,6 +77,7 @@ d) Alcohol level is 1 if alcohol is greater than 127.
 
 <details> 
 <summary> Verilog Code </summary> 
+
 
 
 
