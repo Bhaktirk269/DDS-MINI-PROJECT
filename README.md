@@ -4,13 +4,13 @@
 
 Add 
 <details> 
-<summary> Details </summary> 
+<summary> Team Details </summary> 
 
 
-* TEAM DETAILS:
- Semester :3rd Sem B.Tech.CSE ,
- Section: S1,
-T13
+Semester :3rd Sem B.Tech.CSE ,
+Section: S1,
+Team Number:13
+Team Members:
 1) Bhakti Raju Karchi, 221CS116 ,bhaktirajukarchi.221cs116@nitk.edu.in
 2) Hitha N,221CS130, hithan.221cs130@nitk.edu.in
 3) P Devi Deepika ,221CS138, pdevideepika.221cs138@nitk.edu.in 
@@ -18,8 +18,11 @@ T13
 
 </details>
 
+Add 
+<details> 
+<summary> Abstract </summary> 
 
-* ABSTRACT:
+
 
 This project is one of the important Sensor based project ideas. The main unit of this project is an “Alcohol sensor”. If the person inside the car has consumed alcohol then it is alcohol detection is done by the sensor. The sensor gives this signal to a comparator IC. The output of the comparator is connected to the microcontroller.
 
@@ -40,7 +43,13 @@ We can implement GSM technology with an alcohol detector. So Alcohol detection &
 
 We can implement GPS technology so that once alcohol detection is done, the system will find out the location of the vehicle. This project is called GPS tracker and alcohol detector with engine locking system using GSM.
 
-* WORKING:
+
+</details>
+
+Add 
+<details> 
+<summary> Working </summary> 
+
 
 Alcohol detection and vehicle control systems are designed to enhance road safety by preventing individuals under the influence of alcohol from operating vehicles. These systems typically incorporate
 breathalyzer technology to measure the driver's blood alcohol concentration (BAC). If a driver's BAC exceeds acertain threshold, the system may immobilize the vehicle or prevent it from starting, ensuring a safer driving environment. MQ-3 Alcohol Sensor: The MQ-3 sensor detects alcohol vapor concentration in the air and provides an analog output proportional to the alcohol level.Microcontroller (e.g., Arduino): This will interface with the MQ-3 sensor and process the analog output.LED or Buzzer (Optional): To indicate the status of the alcohol level (e.g., above the threshold). Here we have should use sequential logical gates (flip flops).there
@@ -49,12 +58,33 @@ b) Output- Detection flag, detection counter.
 c) Alcohol level is 0 if alcohol is less than 127. 
 d) Alcohol level is 1 if alcohol is greater than 127.
 
-* LOGISIM DAIGRAM :![final logisim](https://github.com/Bhaktirk269/DDS-MINI-PROJECT/assets/129278697/3b65f589-8f1a-462c-8ce7-5da056f97ef3)
 
-* VERILOG CODE:
+</details>
+
+
+
+Add 
+<details> 
+<summary> Logism </summary> 
+
+![final logisim](https://github.com/Bhaktirk269/DDS-MINI-PROJECT/assets/129278697/3b65f589-8f1a-462c-8ce7-5da056f97ef3)
+
+
+</details>
+
+Add 
+<details> 
+<summary> Verilog Code </summary> 
+
+
+
 
 1) [alc.v.txt](https://github.com/Bhaktirk269/DDS-MINI-PROJECT/files/13239353/alc.v.txt)
 2) [alc_tb.v.txt](https://github.com/Bhaktirk269/DDS-MINI-PROJECT/files/13239357/alc_tb.v.txt)
+
+
+</details>
+
 
 
 
