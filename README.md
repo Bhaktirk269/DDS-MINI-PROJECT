@@ -1,8 +1,7 @@
 
 
-                                          ALCOHOL DETECTION WITH VEHICAL CONTROLLING SYSTEM
+                                          ALCOHOL DETECTION WITH   VEHICAL CONTROLLING SYSTEM
 
-Add 
 <details> 
 <summary> Team Details </summary> 
 
@@ -18,7 +17,7 @@ Team Members:
 
 </details>
 
-Add 
+
 <details> 
 <summary> Abstract </summary> 
 
@@ -46,7 +45,7 @@ We can implement GPS technology so that once alcohol detection is done, the syst
 
 </details>
 
-Add 
+
 <details> 
 <summary> Working </summary> 
 
@@ -63,7 +62,7 @@ d) Alcohol level is 1 if alcohol is greater than 127.
 
 
 
-Add 
+
 <details> 
 <summary> Logism </summary> 
 
@@ -72,7 +71,7 @@ Add
 
 </details>
 
-Add 
+
 <details> 
 <summary> Verilog Code </summary> 
 
