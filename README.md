@@ -2,13 +2,21 @@
 
                                           ALCOHOL DETECTION WITH VEHICAL CONTROLLING SYSTEM
 
+Add 
+<details> 
+<summary> Details </summary> 
+
+
 * TEAM DETAILS:
- Semister :3rd Sem B.Tech.CSE ,
+ Semester :3rd Sem B.Tech.CSE ,
  Section: S1,
 T13
 1) Bhakti Raju Karchi, 221CS116 ,bhaktirajukarchi.221cs116@nitk.edu.in
 2) Hitha N,221CS130, hithan.221cs130@nitk.edu.in
 3) P Devi Deepika ,221CS138, pdevideepika.221cs138@nitk.edu.in 
+
+
+</details>
 
 
 * ABSTRACT:
