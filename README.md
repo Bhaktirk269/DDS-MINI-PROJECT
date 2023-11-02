@@ -69,7 +69,8 @@ d) Alcohol level is 1 if alcohol is greater than 127.
 <summary> Logism </summary> 
 
 
-![final logisim](https://github.com/Bhaktirk269/DDS-MINI-PROJECT/assets/129278697/3b65f589-8f1a-462c-8ce7-5da056f97ef3)
+![final logisim](![image](https://github.com/Bhaktirk269/DDS-MINI-PROJECT/assets/129278697/7c4d336e-3da9-46d9-98cf-0eeef9b101c5)
+
 
 
 </details>
