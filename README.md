@@ -108,12 +108,14 @@ d) Alcohol level is 1 if alcohol is greater than 127.
     output wire ignition_enabled,
     output wire speed_limit
 );
+       
         // Instantiate the AlcoholDetection module
         AlcoholDetection alcohol_detection_inst (
         .sensor_data(sensor_data),
         .alcohol_detected(alcohol_detected)
     );
 
+            
             // Instantiate the VehicleControl module
             VehicleControl vehicle_control_inst (
         .alcohol_detected(alcohol_detected),
@@ -182,7 +184,7 @@ module tb_alcohol_vehicle;
                  alcohol_detected, ignition_enabled, speed_limit);
     end
 
-endmodule
+    endmodule
 
 
 
