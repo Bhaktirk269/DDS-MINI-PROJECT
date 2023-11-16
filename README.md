@@ -80,9 +80,10 @@ d) Alcohol level is 1 if alcohol is greater than 127.
 # Verilog Code
 <details> 
 <summary> Details </summary> 
+  
                     module AlcoholDetection (
-          input wire sensor_data,
-          output wire alcohol_detected
+              input wire sensor_data,
+                output wire alcohol_detected
     );
       // Alcohol detection logic based on sensor_data
     // Set alcohol_detected high if alcohol is detected
@@ -107,13 +108,36 @@ d) Alcohol level is 1 if alcohol is greater than 127.
     output wire ignition_enabled,
     output wire speed_limit
 );
-    // Instantiate the AlcoholDetection module
+        // Instantiate the AlcoholDetection module
+        AlcoholDetection alcohol_detection_inst (
+        .sensor_data(sensor_data),
+        .alcohol_detected(alcohol_detected)
+    );
+
+            // Instantiate the VehicleControl module
+            VehicleControl vehicle_control_inst (
+        .alcohol_detected(alcohol_detected),
+        .ignition_request(ignition_request),
+        .speed_request(speed_request),
+        .ignition_enabled(ignition_enabled),
+        .speed_limit(speed_limit)
+    );
+      endmodule
+
+
+
+          //Testbench
+
+          `timescale 1ns/1ps
+
+module tb_alcohol_vehicle;
+
+    // Instantiate the modules
     AlcoholDetection alcohol_detection_inst (
         .sensor_data(sensor_data),
         .alcohol_detected(alcohol_detected)
     );
 
-    // Instantiate the VehicleControl module
     VehicleControl vehicle_control_inst (
         .alcohol_detected(alcohol_detected),
         .ignition_request(ignition_request),
@@ -121,8 +145,44 @@ d) Alcohol level is 1 if alcohol is greater than 127.
         .ignition_enabled(ignition_enabled),
         .speed_limit(speed_limit)
     );
+
+    // Declare signals for the modules
+    wire sensor_data;
+    wire ignition_request;
+    wire speed_request;
+    wire alcohol_detected;
+    wire ignition_enabled;
+    wire speed_limit;
+
+    // Stimulus generation
+    initial begin
+        // Initialize inputs
+        sensor_data = 0;
+        ignition_request = 0;
+        speed_request = 0;
+
+        // Apply some test cases
+        // Test case 1: No alcohol detected
+        // Set sensor_data accordingly
+        // Assert expected values for ignition_enabled and speed_limit
+
+        // Test case 2: Alcohol detected
+        // Set sensor_data accordingly
+        // Assert expected values for ignition_enabled and speed_limit
+
+        // ... Add more test cases as needed
+
+        // Finish simulation after some time
+        $finish;
+    end
+
+    // Monitor to display outputs
+    always @ (posedge alcohol_detected or posedge ignition_enabled or posedge speed_limit) begin
+        $display("Alcohol Detected: %b, Ignition Enabled: %b, Speed Limit: %b",
+                 alcohol_detected, ignition_enabled, speed_limit);
+    end
+
 endmodule
-          
 
 
 
