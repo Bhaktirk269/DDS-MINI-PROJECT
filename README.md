@@ -99,7 +99,8 @@ d) Alcohol level is 1 if alcohol is greater than 127.
       );
     // Vehicle control logic based on alcohol_detected, ignition_request, and speed_request
     // Control ignition_enabled and set speed_limit accordingly
-  endmodule
+ 
+          endmodule
 
     module AlcoholDetectionVehicleControl (
     input wire sensor_data,
