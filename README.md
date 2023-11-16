@@ -1,9 +1,10 @@
 
 
-                                          ALCOHOL DETECTION WITH   VEHICAL CONTROLLING SYSTEM
+# ALCOHOL DETECTION WITH   VEHICAL CONTROLLING SYSTEM
 
+# Team Details
 <details> 
-<summary> Team Details </summary> 
+<summary> Details </summary> 
 
 
 Semester :3rd Sem B.Tech.CSE ,
@@ -17,9 +18,9 @@ Team Members:
 
 </details>
 
-
+# Abstract
 <details> 
-<summary> Abstract </summary> 
+<summary> Details </summary> 
 
 
 
@@ -47,8 +48,9 @@ We can implement GPS technology so that once alcohol detection is done, the syst
 </details>
 
 
+# Working
 <details> 
-<summary> Working </summary> 
+<summary> Details </summary> 
 
 
 
@@ -64,9 +66,9 @@ d) Alcohol level is 1 if alcohol is greater than 127.
 
 
 
-
+# Logisim
 <details> 
-<summary> Logism </summary> 
+<summary> Details </summary> 
 
 
 ![final logisim](![image](https://github.com/Bhaktirk269/DDS-MINI-PROJECT/assets/129278697/7c4d336e-3da9-46d9-98cf-0eeef9b101c5)
@@ -75,9 +77,9 @@ d) Alcohol level is 1 if alcohol is greater than 127.
 
 </details>
 
-
+# Verilog Code
 <details> 
-<summary> Verilog Code </summary> 
+<summary> Details </summary> 
 
 
 
