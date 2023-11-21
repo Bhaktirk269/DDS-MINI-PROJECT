@@ -1,6 +1,6 @@
 
 
-# ALCOHOL DETECTION WITH   VEHICAL CONTROLLING SYSTEM
+# Alcohol Detection with Vehicle Controlling System 
 
 # Team Details
 <details> 
