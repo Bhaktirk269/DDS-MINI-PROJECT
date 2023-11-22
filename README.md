@@ -71,7 +71,8 @@ d) Alcohol level is 1 if alcohol is greater than 127.
 <summary> Details </summary> 
 
 
-![final logisim](![image](https://github.com/Bhaktirk269/DDS-MINI-PROJECT/assets/129278697/7c4d336e-3da9-46d9-98cf-0eeef9b101c5)
+![image](https://github.com/Bhaktirk269/DDS-MINI-PROJECT/assets/129278697/bc205f22-e2ba-4cd9-b133-92c61e10b5ab)
+
 
 
 
